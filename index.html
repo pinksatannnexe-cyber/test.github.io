@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<!-- Bootstrap CSS -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<title>Afficher une photo avec barre de navigation</title>
+<!-- Bootstrap Bundle JS (avec Popper inclus) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="nav sticky-top">
+  <!-- GAUCHE -->
+  <div class="nav-group">
+    <a href="#" class="cluster btn cluster--tight" aria-label="Ouvrir le menu">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <span class="label">Menu</span>
+    </a>
+    <a href="#" class="cluster cluster--tight" aria-label="Recherche">
+      <span class="btn"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7.5"/><path d="M20 20l-3.6-3.6"/></svg></span>
+      <span class="label">Recherche</span>
+    </a>
+    <a href="#" class="btn" aria-label="Boutique">
+      <svg viewBox="0 0 24 24"><path d="M3 10.5V8l2-3h14l2 3v2.5M5 10.5h14M6 10.5V20h12V10.5"/><path d="M9 14h6M9 17h6"/></svg>
+    </a>
+  </div>
+  <!-- CENTRE -->
+  <div class="nav-logo">
+    <img src="logo-héroïnes.svg" alt="Héroïnes" />
+  </div>
+  <!-- DROITE -->
+  <div class="nav-group" style="justify-content:flex-end">
+    <a href="#" class="btn" aria-label="Favoris"><svg viewBox="0 0 24 24"><path d="M12 20s-7.5-4.4-9.5-8.2C1.3 9.4 2.4 6.7 5.3 6c1.8-.4 3.6.3 4.7 1.7 1.1-1.4 2.9-2.1 4.7-1.7 2.9.7 4 3.4 2.8 5.8C19.5 15.6 12 20 12 20z"/></svg></a>
+    <a href="#" class="btn" aria-label="Compte"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.2"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg></a>
+    <a href="#" class="cluster cluster--tight" aria-label="Panier"><span class="btn"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span><span class="label">Panier (0)</span></a>
+  </div>
+</nav>
+
+<!-- HERO & SECTIONS -->
+<div class="hero-section"></div>
+<div class="second-image">
+  <h1></h1><p></p><a href="#" class="j-en-profite-btn">J'en profite</a>
+</div>
+<div class="third-image">
+  <h1></h1><p></p><a href="#" class="je-decouvre-btn">JE DÉCOUVRE</a>
+</div>
+<div class="categories-section">
+  <h2>Nos catégories</h2>
+  <div class="category-grid">
+    <div class="category-card" style="background-image: url('img/nos-souliers.jpeg');"><div class="category-title">Nos souliers</div></div>
+    <div class="category-card" style="background-image: url('img/nos-combis-chics.jpeg');"><div class="category-title">Nos Combis chics</div></div>
+    <div class="category-card" style="background-image: url('img/nos-accessoires.jpg');"><div class="category-title">Nos Accessoires</div></div>
+  </div>
+</div>
+<div class="slider-section">
+  <h2>Nos produits phares</h2>
+  <div class="slider-container" id="slider">
+    <div class="slider-item" style="background-image: url('img/produit1.webp');"><div class="item-title">La marque </div><a href="#" class="en-savoir-plus-btn">En savoir plus</a></div>
+    <div class="slider-item" style="background-image: url('img/produit2.webp');"><div class="item-title">Nos boutiques </div><a href="#" class="en-savoir-plus-btn">En savoir plus</a></div>
+    <div class="slider-item" style="background-image: url('img/produit3.webp');"><div class="item-title">RSE</div><a href="#" class="en-savoir-plus-btn">En savoir plus</a></div>
+  </div>
+</div>
+
+<!-- NEWSLETTER + INSTAGRAM -->
+<div class="top-section">
+  <div class="newsletter">
+    <h4>NEWSLETTER</h4>
+    <h2>Soyez la première à être informée</h2>
+    <input type="email" placeholder="Votre adresse mail">
+    <button>S'INSCRIRE</button>
+  </div>
+  <div class="instagram">
+    <h4>#heroinesattitude</h4>
+    <h2>Suivez-nous sur Instagram</h2>
+    <button>@HEROINES_PARIS</button>
+  </div>
+</div>
+
+<!-- BANDEAU JAUNE -->
+<div class="yellow-bar">
+  <div class="features">
+    <span>💳 Paiement 100% sécurisé</span>
+    <span>📦 Livraison offerte en point relais</span>
+    <span>↩️ Satisfait ou remboursé</span>
+  </div>
+  <button>CONTACTEZ-NOUS</button>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <a href="#">Foire aux questions</a>
+    <a href="#">Contact</a>
+    <a href="#">Nos boutiques</a>
+    <a href="#">Mon compte</a>
+  </div>
+  <div>
+    <a href="#">Nos belles robes</a>
+    <a href="#">Nos Combis chics</a>
+    <a href="#">Nos mailles</a>
+    <a href="#">Nos tops</a>
+    <a href="#">Jupes et pantalons</a>
+  </div>
+  <div>
+    <a href="#">Cartes cadeaux</a>
+    <a href="#">Accessoires</a>
+    <a href="#">Vestes et Manteaux</a>
+  </div>
+</footer>
+<div class="bottom">
+  © 2025 HÉROÏNES, TOUS DROITS RÉSERVÉS | Mentions légales | CGV | Politique de Confidentialité
+</div>
+
+</body>
+</html>
